@@ -74,10 +74,47 @@
                             </select>
                             <div class="invalid-feedback">Escolha uma opção válida</div>
                         </div>
-
+                        <button type="submit" name="adicionar" class="btn btn-secondary w-100">Adicionar veiculo</button>
                     </form>
                 </div>
             </div>
+            <div class="col-md-6">
+                <div class="card h-100">
+                    <div class="card-header">
+                        <h4 class="mb-0">
+                            Calcular a previsão de aluguel 💰
+                        </h4>
+                    </div>
+                    <div class="card-body">
+                        <form action="post" class="needs-validation" novalidate>
+                        <div class="mb-3">
+                            <label for="tipo" class="form-label">Tipo</label>
+                            <select name="Tipo" id="" class="form-select">
+                                <option value="-" disabled selected>-</option>
+                                <option value="carro">
+                                    Carro
+                                </option>
+                                <option value="moto">
+                                    Moto
+                                </option>
+                                <option value="caminhão">
+                                    Caminhão
+                                </option>
+                            </select>
+                            <div class="invalid-feedback">Escolha uma opção válida</div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="quantidade" class="form-label">
+                                Quantidade de dias 📅
+                            </label>
+                            <input type="number" class="form-control">
+                        </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+
         </div>
      </div>
 
