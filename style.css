@@ -36,4 +36,15 @@
     .btn-group-actions{
         flex-direction: column;
     }
+    .days-input{
+        width: 100% !important;
+    }
+    .rent-group{
+        order: 1;
+        width: 100%;
+    }
+    .delete-btn{
+        order: 2;
+        width: 100%;
+    }
 }

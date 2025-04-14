@@ -173,6 +173,105 @@
                                             </div>
                                         </td>
                                     </tr>
+                                    <tr>
+                                        <td>Moto</td>
+                                        <td>Harley Davidson</td>
+                                        <td>DEF1234</td>
+                                        <td>
+                                            <span class="badge bg-success">
+                                                Disponível
+                                            </span>
+                                        </td>
+                                        <td>
+                                            <div class="action-wrapper">
+                                                <form action="post" class="btn-group-actions">
+                                                    
+                                                    <!-- botão deletar sempre disponivel para o adm -->
+                                                    <button class="btn btn-danger btn-sm delete-btn" type="submit" name="deletar">Excluir</button>
+
+                                                    <!-- botoes condicionais -->
+                                                    <div class="rent-group">
+
+                                                        <!-- Veiculo alugado -->
+                                                        <button class="btn btn-warning btn-sm" type="submit" name="devolver">
+                                                            Devolver
+                                                        </button>
+
+                                                        <!-- Veiculo disponivel -->
+                                                        <input type="number" name="semanas" class="form-control days-input" value="1" min="1" required>
+                                                        <button class="btn btn-primary btn-sm" type="submit" name="alugar">Alugar</button>
+
+                                                    </div>
+                                                </form>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Carro</td>
+                                        <td>Ferrari</td>
+                                        <td>AFG1D34</td>
+                                        <td>
+                                            <span class="badge bg-success">
+                                                Disponível
+                                            </span>
+                                        </td>
+                                        <td>
+                                            <div class="action-wrapper">
+                                                <form action="post" class="btn-group-actions">
+                                                    
+                                                    <!-- botão deletar sempre disponivel para o adm -->
+                                                    <button class="btn btn-danger btn-sm delete-btn" type="submit" name="deletar">Excluir</button>
+
+                                                    <!-- botoes condicionais -->
+                                                    <div class="rent-group">
+
+                                                        <!-- Veiculo alugado -->
+                                                        <button class="btn btn-warning btn-sm" type="submit" name="devolver">
+                                                            Devolver
+                                                        </button>
+
+                                                        <!-- Veiculo disponivel -->
+                                                        <input type="number" name="semanas" class="form-control days-input" value="1" min="1" required>
+                                                        <button class="btn btn-primary btn-sm" type="submit" name="alugar">Alugar</button>
+
+                                                    </div>
+                                                </form>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Carro</td>
+                                        <td>Lancer</td>
+                                        <td>ASG1H24</td>
+                                        <td>
+                                            <span class="badge bg-success">
+                                                Disponível
+                                            </span>
+                                        </td>
+                                        <td>
+                                            <div class="action-wrapper">
+                                                <form action="post" class="btn-group-actions">
+                                                    
+                                                    <!-- botão deletar sempre disponivel para o adm -->
+                                                    <button class="btn btn-danger btn-sm delete-btn" type="submit" name="deletar">Excluir</button>
+
+                                                    <!-- botoes condicionais -->
+                                                    <div class="rent-group">
+
+                                                        <!-- Veiculo alugado -->
+                                                        <button class="btn btn-warning btn-sm" type="submit" name="devolver">
+                                                            Devolver
+                                                        </button>
+
+                                                        <!-- Veiculo disponivel -->
+                                                        <input type="number" name="semanas" class="form-control days-input" value="1" min="1" required>
+                                                        <button class="btn btn-primary btn-sm" type="submit" name="alugar">Alugar</button>
+
+                                                    </div>
+                                                </form>
+                                            </div>
+                                        </td>
+                                    </tr>
                                 </tbody>
                             </table>
                         </div>
