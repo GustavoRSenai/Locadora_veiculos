@@ -165,7 +165,7 @@
                                                         </button>
 
                                                         <!-- Veiculo disponivel -->
-                                                        <input type="number" name="semanas" class="form-control" value="1" min="1" required>
+                                                        <input type="number" name="semanas" class="form-control days-input" value="1" min="1" required>
                                                         <button class="btn btn-primary btn-sm" type="submit" name="alugar">Alugar</button>
 
                                                     </div>

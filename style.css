@@ -2,7 +2,7 @@
     display: flex;
     align-items: center;
     gap: 0.5rem;
-    justify-content: center;
+    justify-content: start;
 }
 
 .btn-group-actions{
@@ -13,8 +13,15 @@
 }
 .rent-group{
     display: flex;
+    align-items: center;
     flex-direction: row;
     gap: 0.5rem;
+    order: 2;
+}
+.days-input{
+    width: 60px !important;
+    padding: 0.25rem 0.5rem;
+    text-align: center;
 }
 
 .delete-btn{
