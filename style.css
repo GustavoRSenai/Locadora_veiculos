@@ -23,6 +23,16 @@
     padding: 0.25rem 0.5rem;
     text-align: center;
 }
+.btn-modal{
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+}
+.days-input-modal{
+    padding: 0.25rem 0.5rem;
+    margin-right: 10px;
+    text-align: center;
+}
 
 .delete-btn{
     order: 1;

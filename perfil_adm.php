@@ -140,13 +140,14 @@
                                     <th>Ações</th>
                                 </thead>
                                 <tbody>
-                                    <tr>
+                                    <tr data-bs-toggle="modal"
+                                    data-bs-target="#Uno">
                                         <td>Carro</td>
                                         <td>Uno</td>
                                         <td>ABC1234</td>
                                         <td>
-                                            <span class="badge bg-success">
-                                                Disponível
+                                            <span class="badge bg-warning">
+                                                Alugado
                                             </span>
                                         </td>
                                         <td>
@@ -173,7 +174,8 @@
                                             </div>
                                         </td>
                                     </tr>
-                                    <tr>
+                                    <tr data-bs-toggle="modal"
+                                    data-bs-target="#harley">
                                         <td>Moto</td>
                                         <td>Harley Davidson</td>
                                         <td>DEF1234</td>
@@ -206,13 +208,14 @@
                                             </div>
                                         </td>
                                     </tr>
-                                    <tr>
+                                    <tr data-bs-toggle="modal"
+                                    data-bs-target="#ferrari">
                                         <td>Carro</td>
                                         <td>Ferrari</td>
                                         <td>AFG1D34</td>
                                         <td>
-                                            <span class="badge bg-success">
-                                                Disponível
+                                            <span class="badge bg-warning">
+                                                Alugado
                                             </span>
                                         </td>
                                         <td>
@@ -239,7 +242,8 @@
                                             </div>
                                         </td>
                                     </tr>
-                                    <tr>
+                                    <tr data-bs-toggle="modal"
+                                    data-bs-target="#lancer">
                                         <td>Carro</td>
                                         <td>Lancer</td>
                                         <td>ASG1H24</td>
@@ -280,7 +284,158 @@
             </div>
         </div>
 
+            <!-- Modais veiculos -->
+
+        <div class="modal fade" id="Uno">
+            <div class="modal-dialog modal-dialog-scrollable">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h2>🚗 Uno</h2>
+                    </div>
+                    <div class="modal-body">
+                        <h5>Informações</h5>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur voluptatibus quo quisquam qui saepe quas dolor quidem ipsum delectus labore voluptas esse, excepturi aut sequi libero! Illo sint quo maiores.</p>
+                        <table class="table table-striped table-hover">
+                            <thead>
+                                <th>Tipo</th>
+                                <th>Modelo</th>
+                                <th>Placa</th>
+                                <th>Status</th>
+                            </thead>
+                            <tbody>
+                                <td>Carro</td>
+                                <td>Uno</td>
+                                <td>ABC1234</td>
+                                <td>
+                                    <span class="badge bg-warning">
+                                        Alugado
+                                    </span>
+                                </td>
+                            </tbody>
+                        </table>
+                        <form action="post" class="">
+                            <!-- Veiculo disponivel -->
+                            <input type="number" name="semanas" class="form-control days-input-modal" value="1" min="1" required>
+                            <button class="btn btn-primary btn-sm" type="submit" name="alugar">Alugar</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="harley">
+            <div class="modal-dialog modal-dialog-scrollable">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h2>🏍️ Harley Davidson</h2>
+                    </div>
+                    <div class="modal-body">
+                        <h5>Informações</h5>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur voluptatibus quo quisquam qui saepe quas dolor quidem ipsum delectus labore voluptas esse, excepturi aut sequi libero! Illo sint quo maiores.</p>
+                        <table class="table table-striped table-hover">
+                            <thead>
+                                <th>Tipo</th>
+                                <th>Modelo</th>
+                                <th>Placa</th>
+                                <th>Status</th>
+                            </thead>
+                            <tbody>
+                                <td>Moto</td>
+                                <td>Harley Davidson</td>
+                                <td>DEF1234</td>
+                                <td>
+                                    <span class="badge bg-success">
+                                        Disponível
+                                    </span>
+                                </td>
+                            </tbody>
+                        </table>
+                        <form action="post" class="">
+                            <!-- Veiculo disponivel -->
+                            <input type="number" name="semanas" class="form-control days-input-modal" value="1" min="1" required>
+                            <button class="btn btn-primary btn-sm" type="submit" name="alugar">Alugar</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="ferrari">
+            <div class="modal-dialog modal-dialog-scrollable">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h2>🚗 Ferrari</h2>  
+                    </div>
+                    <div class="modal-body">
+                        <h5>Informações</h5>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur voluptatibus quo quisquam qui saepe quas dolor quidem ipsum delectus labore voluptas esse, excepturi aut sequi libero! Illo sint quo maiores.</p>
+                        <table class="table table-striped table-hover">
+                            <thead>
+                                <th>Tipo</th>
+                                <th>Modelo</th>
+                                <th>Placa</th>
+                                <th>Status</th>
+                            </thead>
+                            <tbody>
+                                <td>Carro</td>
+                                <td>Ferrari</td>
+                                <td>AFG1D34</td>
+                                <td>
+                                    <span class="badge bg-warning">
+                                        Alugado
+                                    </span>
+                                </td>
+                            </tbody>
+                        </table>
+                        <form action="post" class="">
+                            <!-- Veiculo disponivel -->
+                            <input type="number" name="semanas" class="form-control days-input-modal" value="1" min="1" required>
+                            <button class="btn btn-primary btn-sm" type="submit" name="alugar">Alugar</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="lancer">
+            <div class="modal-dialog modal-dialog-scrollable">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h2>🚗 Lancer</h2>
+                    </div>
+                    <div class="modal-body">
+                        <h5>Informações</h5>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur voluptatibus quo quisquam qui saepe quas dolor quidem ipsum delectus labore voluptas esse, excepturi aut sequi libero! Illo sint quo maiores.</p>
+                        <table class="table table-striped table-hover">
+                            <thead>
+                                <th>Tipo</th>
+                                <th>Modelo</th>
+                                <th>Placa</th>
+                                <th>Status</th>
+                            </thead>
+                            <tbody>
+                                <td>Carro</td>
+                                <td>Lancer</td>
+                                <td>ASG1H24</td>
+                                <td>
+                                    <span class="badge bg-success">
+                                        Disponível
+                                    </span>
+                                </td>
+                            </tbody>
+                        </table>
+                        <form action="post" class="">
+                            <!-- Veiculo disponivel -->
+                            <input type="number" name="semanas" class="form-control days-input-modal" value="1" min="1" required>
+                            <button class="btn btn-primary btn-sm" type="submit" name="alugar">Alugar</button>
+                        </form>
+                </div>
+            </div>
+        </div>
 
     </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
 </body>
 </html>
