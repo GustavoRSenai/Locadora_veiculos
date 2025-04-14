@@ -136,7 +136,7 @@
                                         <td>ASG1H24</td>
                                         <td>
                                             <span class="badge bg-success" data-bs-toggle="modal"
-                                            data-bs-target="#modal1">
+                                            data-bs-target="#alugar">
                                                 Disponível
                                             </span>
                                         </td>
@@ -275,11 +275,46 @@
                                 </td>
                             </tbody>
                         </table>
-                        
+                    </div>
                 </div>
             </div>
         </div>
 
+        <div class="modal fade" id="alugar">
+            <div class="modal-dialog modal-dialog-scrollable">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h2>Alugar Veiculo</h2>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            <label for="basic-url" class="form-label">Nome:</label>
+                            <div class="input-group mb-3">
+                                <span class="input-group-text" id="basic-addon1"><i class="bi bi-person-fill"></i></span>
+                                <input type="text" class="form-control" placeholder="Digite seu nome..." aria-label="Username" aria-describedby="basic-addon1">
+                            </div>
+                            <label for="basic-url" class="form-label">Email:</label>
+                            <div class="input-group mb-3">
+                                <span class="input-group-text" id="basic-addon1"><i class="bi bi-envelope-fill"></i></span>
+                                <input type="text" class="form-control" placeholder="Digite seu email..." aria-label="Username" aria-describedby="basic-addon1">
+                            </div>
+                            <label for="basic-url" class="form-label">Telefone:</label>
+                            <div class="input-group mb-3">
+                                <span class="input-group-text" id="basic-addon1"><i class="bi bi-phone-fill"></i></span>
+                                <input type="text" class="form-control" placeholder="Digite seu telefone..." aria-label="Username" aria-describedby="basic-addon1">
+                            </div>
+                            <div class="mb-3">
+                                <label for="quantidade" class="form-label">
+                                    Quantidade de dias:
+                                </label>
+                                <input type="number" name="dias_calculo" class="form-control" value="1" required>
+                            </div>
+                            <button class="btn btn-primary w-100">Alugar</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
         
 
     </div>
